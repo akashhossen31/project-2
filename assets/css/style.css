@@ -1,0 +1,51 @@
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.main{
+    background-color: #8EBEC9;
+    max-width: 100%;
+
+}
+.title{
+    font-family: Merriweather, serif !important;
+    padding-left: 55px;
+    font-size: 3.75rem;
+}
+.desc{
+     color: #cee4e9 !important;
+     margin-top: 100px;
+    }
+    @media(max-width: 576px) {
+  
+        /* CSS */.desc{
+            margin-top: 0px;
+            padding-left: 55px;
+        } 
+        .pic{
+            height: auto;
+            width: 100%;
+        }
+      }
+    @media(max-width: 768px) {
+  
+        /* CSS */.desc{
+            padding-left: 72px;
+        }  
+        .pic{
+            height: auto;
+            width: 100%;
+        }   
+      }
+
+.bg-body-secondary.fs-1.fw-semibold{
+	height: 450px;
+    padding: 80px;
+}
+.img-fluid.rounded-circle {
+	height: 280px;
+	width: 280px;
+}
+.pic{
+    height: 640px;
+}
